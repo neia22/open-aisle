@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Hanken+Grotesk:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500&display=swap');
+
+:root {
+  --saffron:        #DE7A2C;
+  --saffron-deep:   #C2611B;
+  --saffron-soft:   #F0A463;
+  --saffron-tint:   #FBE9D6;
+
+  --claret:         #7E2741;
+  --claret-deep:    #631C32;
+  --claret-tint:    #F3DCE1;
+
+  --sage:           #71805C;
+  --sage-deep:      #586748;
+  --sage-tint:      #E7EBDD;
+
+  --gold:           #B08A4F;
+  --gold-soft:      #D8BE8C;
+
+  --ink:            #251C1A;
+  --ink-2:          #5B514B;
+  --ink-3:          #8B817A;
+  --ink-4:          #B6ADA3;
+
+  --ivory:          #FBF5EC;
+  --ivory-deep:     #F3EADD;
+  --paper:          #FFFDF8;
+  --paper-pure:     #FFFFFF;
+
+  --border:         #E8DECF;
+  --border-strong:  #D8CAB3;
+
+  --positive:       #5C7048;
+  --positive-tint:  #E7EBDD;
+  --warning:        #C2611B;
+  --warning-tint:   #FBE9D6;
+  --danger:         #B23A2E;
+  --danger-tint:    #F6DED9;
+  --info:           #4A6C7A;
+  --info-tint:      #DEEAEC;
+
+  --shadow-xs:  0 1px 2px rgba(58, 40, 22, 0.06);
+  --shadow-sm:  0 1px 2px rgba(58, 40, 22, 0.05), 0 2px 6px rgba(58, 40, 22, 0.06);
+  --shadow-md:  0 2px 4px rgba(58, 40, 22, 0.05), 0 8px 20px rgba(58, 40, 22, 0.09);
+  --shadow-lg:  0 4px 10px rgba(58, 40, 22, 0.07), 0 20px 44px rgba(58, 40, 22, 0.13);
+  --shadow-xl:  0 8px 18px rgba(58, 40, 22, 0.10), 0 36px 70px rgba(58, 40, 22, 0.18);
+  --ring-inset: inset 0 0 0 1px rgba(58, 40, 22, 0.06);
+
+  --r-xs:   6px;
+  --r-sm:   10px;
+  --r-md:   14px;
+  --r-lg:   20px;
+  --r-xl:   28px;
+  --r-pill: 999px;
+
+  --s-1: 4px;  --s-2: 8px;  --s-3: 12px; --s-4: 16px;
+  --s-5: 20px; --s-6: 24px; --s-8: 32px; --s-10: 40px;
+  --s-12: 48px; --s-16: 64px; --s-20: 80px; --s-24: 96px;
+
+  --font-display: 'Cormorant Garamond', 'Hoefler Text', Georgia, serif;
+  --font-sans:    'Hanken Grotesk', 'Helvetica Neue', system-ui, sans-serif;
+  --font-mono:    'IBM Plex Mono', ui-monospace, 'SFMono-Regular', monospace;
+
+  --maxw:   1200px;
+  --ease:   cubic-bezier(0.22, 1, 0.36, 1);
+}
