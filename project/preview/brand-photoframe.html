@@ -1,0 +1,19 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<link rel="stylesheet" href="card.css">
+<style>
+  .frame { border-radius:20px; box-shadow:var(--ring-inset), var(--shadow-sm); overflow:hidden; position:relative; height:150px; flex:1; }
+  .duo { background:linear-gradient(150deg, var(--saffron) 0%, #B8492F 55%, var(--claret) 100%); }
+  .duo2 { background:linear-gradient(150deg, var(--sage) 0%, #5C6B4A 60%, var(--claret-deep) 100%); }
+  .frame .cap { position:absolute; left:0; right:0; bottom:0; padding:26px 14px 12px; background:linear-gradient(transparent, rgba(37,28,26,0.6)); color:#fff; font-family:var(--font-mono); font-size:11px; display:flex; align-items:center; gap:6px; }
+  .frame .cap svg { width:14px; height:14px; opacity:0.85; }
+  .note { font-family:var(--font-display); font-style:italic; font-size:15px; color:var(--ink-2); text-align:center; }
+</style></head>
+<body><div class="card" style="gap:12px;">
+  <div class="row" style="gap:14px;">
+    <div class="frame duo"><span class="cap"><i data-lucide="image"></i> Garland exchange · Jaipur</span></div>
+    <div class="frame duo2"><span class="cap"><i data-lucide="image"></i> First dance · Lagos</span></div>
+  </div>
+  <div class="note">PhotoFrame — warm duotone placeholder until real ceremony photography lands</div>
+</div>
+<script src="https://unpkg.com/lucide@latest"></script><script>lucide.createIcons();</script>
+</body></html>

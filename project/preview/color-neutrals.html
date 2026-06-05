@@ -1,0 +1,20 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<link rel="stylesheet" href="card.css">
+<style>
+  .grid { display:grid; grid-template-columns:repeat(4,1fr); gap:10px; }
+  .chip { border-radius:12px; height:96px; border:1px solid var(--border); display:flex; flex-direction:column; justify-content:flex-end; padding:10px 12px; }
+  .chip .nm { font-weight:700; font-size:13px; }
+  .chip .hx { font-family:var(--font-mono); font-size:11px; margin-top:1px; }
+</style></head>
+<body><div class="card">
+  <div class="grid">
+    <div class="chip" style="background:var(--ink); color:#fff;"><span class="nm">Ink</span><span class="hx">#251C1A · fg1</span></div>
+    <div class="chip" style="background:var(--ink-2); color:#fff;"><span class="nm">Ink 2</span><span class="hx">#5B514B · fg2</span></div>
+    <div class="chip" style="background:var(--ink-3); color:#fff;"><span class="nm">Ink 3</span><span class="hx">#8B817A · fg3</span></div>
+    <div class="chip" style="background:var(--ink-4); color:#fff;"><span class="nm">Ink 4</span><span class="hx">#B6ADA3 · fg4</span></div>
+    <div class="chip" style="background:var(--ivory); color:var(--ink);"><span class="nm">Ivory</span><span class="hx">#FBF5EC · bg</span></div>
+    <div class="chip" style="background:var(--ivory-deep); color:var(--ink);"><span class="nm">Ivory deep</span><span class="hx">#F3EADD</span></div>
+    <div class="chip" style="background:var(--paper); color:var(--ink);"><span class="nm">Paper</span><span class="hx">#FFFDF8</span></div>
+    <div class="chip" style="background:var(--border-strong); color:var(--ink);"><span class="nm">Border</span><span class="hx">#D8CAB3</span></div>
+  </div>
+</div></body></html>

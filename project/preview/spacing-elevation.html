@@ -1,0 +1,19 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<link rel="stylesheet" href="card.css">
+<style>
+  .grid { display:flex; gap:22px; align-items:center; justify-content:space-between; }
+  .b { width:84px; height:84px; border-radius:16px; background:var(--paper); }
+  .cap { text-align:center; margin-top:12px; }
+  .cap .n { font-weight:700; font-size:13px; }
+  .cap .v { font-family:var(--font-mono); font-size:11px; color:var(--ink-3); }
+</style></head>
+<body><div class="card">
+  <div class="grid">
+    <div><div class="b" style="box-shadow:var(--shadow-xs)"></div><div class="cap"><div class="n">xs</div><div class="v">hairline</div></div></div>
+    <div><div class="b" style="box-shadow:var(--shadow-sm)"></div><div class="cap"><div class="n">sm</div><div class="v">card rest</div></div></div>
+    <div><div class="b" style="box-shadow:var(--shadow-md)"></div><div class="cap"><div class="n">md</div><div class="v">card hover</div></div></div>
+    <div><div class="b" style="box-shadow:var(--shadow-lg)"></div><div class="cap"><div class="n">lg</div><div class="v">popover</div></div></div>
+    <div><div class="b" style="box-shadow:var(--shadow-xl)"></div><div class="cap"><div class="n">xl</div><div class="v">modal</div></div></div>
+  </div>
+  <div class="tok" style="text-align:center; margin-top:4px;">warm-tinted shadows · rgba(58, 40, 22, …) — never grey</div>
+</div></body></html>

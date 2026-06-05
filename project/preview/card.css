@@ -1,0 +1,30 @@
+/* Shared frame for Design System preview cards.
+   Each card is designed at 700px wide; height is set per-card
+   via the registered viewport. Keep cards calm: show the tokens,
+   skip titles/framing (the asset name renders outside the card). */
+@import url('../colors_and_type.css');
+
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body {
+  font-family: var(--font-sans);
+  color: var(--ink);
+  background: var(--ivory);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+.card {
+  width: 100%;
+  min-height: 100vh;
+  padding: 26px 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  justify-content: center;
+}
+.row { display: flex; gap: 12px; align-items: center; }
+.row.wrap { flex-wrap: wrap; }
+.spread { justify-content: space-between; }
+.mut { color: var(--ink-3); }
+.tok { font-family: var(--font-mono); font-size: 12px; letter-spacing: -0.01em; color: var(--ink-3); }
+.lbl { font-size: 12px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: var(--ink-3); }

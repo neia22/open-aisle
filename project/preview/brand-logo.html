@@ -1,0 +1,34 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<link rel="stylesheet" href="card.css">
+<style>
+  .lock { display:flex; align-items:center; gap:11px; }
+  .mark { width:38px; height:38px; }
+  .mark svg { width:100%; height:100%; }
+  .word { font-family:var(--font-display); font-weight:600; font-size:29px; letter-spacing:-0.01em; line-height:1; }
+  .a { color:var(--saffron-deep); }
+  .panel { border-radius:16px; padding:18px 22px; display:flex; align-items:center; justify-content:center; }
+  .lbl2 { font-family:var(--font-mono); font-size:10px; color:var(--ink-3); text-align:center; margin-top:8px; }
+  .col { flex:1; }
+</style></head>
+<body><div class="card">
+  <div class="row" style="gap:14px; align-items:stretch;">
+    <div class="col">
+      <div class="panel" style="background:var(--paper); border:1px solid var(--border);">
+        <div class="lock"><span class="mark" style="color:var(--saffron-deep)"><svg viewBox="0 0 48 48" fill="none"><path d="M9 43 L9 22 A15 15 0 0 1 39 22 L39 43" stroke="currentColor" stroke-width="3.4" stroke-linecap="round"/><path d="M17 43 L17 24 A7 7 0 0 1 31 24 L31 43" stroke="currentColor" stroke-width="2" stroke-linecap="round" opacity="0.55"/></svg></span><span class="word" style="color:var(--ink)">Open<span class="a">Aisle</span></span></div>
+      </div>
+      <div class="lbl2">primary · on paper</div>
+    </div>
+    <div class="col">
+      <div class="panel" style="background:var(--claret);">
+        <div class="lock"><span class="mark" style="color:var(--saffron-soft)"><svg viewBox="0 0 48 48" fill="none"><path d="M9 43 L9 22 A15 15 0 0 1 39 22 L39 43" stroke="currentColor" stroke-width="3.4" stroke-linecap="round"/><path d="M17 43 L17 24 A7 7 0 0 1 31 24 L31 43" stroke="currentColor" stroke-width="2" stroke-linecap="round" opacity="0.6"/></svg></span><span class="word" style="color:#FBF5EC">Open<span style="color:var(--saffron-soft)">Aisle</span></span></div>
+      </div>
+      <div class="lbl2">reversed · on claret</div>
+    </div>
+    <div class="col">
+      <div class="panel" style="background:var(--ink);">
+        <div class="lock"><span class="mark" style="width:42px;height:42px;color:#FBF5EC"><svg viewBox="0 0 48 48" fill="none"><path d="M9 43 L9 22 A15 15 0 0 1 39 22 L39 43" stroke="currentColor" stroke-width="3.4" stroke-linecap="round"/><path d="M17 43 L17 24 A7 7 0 0 1 31 24 L31 43" stroke="currentColor" stroke-width="2" stroke-linecap="round" opacity="0.55"/></svg></span></div>
+      </div>
+      <div class="lbl2">mark only · mono</div>
+    </div>
+  </div>
+</div></body></html>

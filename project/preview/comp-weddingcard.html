@@ -1,0 +1,41 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<link rel="stylesheet" href="card.css">
+<style>
+  .wc { width:318px; background:var(--paper); border:1px solid var(--border); border-radius:20px; box-shadow:var(--shadow-sm); overflow:hidden; }
+  .ph { position:relative; height:178px; background:linear-gradient(150deg, var(--saffron) 0%, #B8492F 55%, var(--claret) 100%); }
+  .ph .save { position:absolute; top:12px; right:12px; width:34px; height:34px; border-radius:999px; background:rgba(255,253,248,0.92); display:grid; place-items:center; }
+  .ph .save svg { width:17px; height:17px; color:var(--claret); }
+  .ph .chip { position:absolute; left:12px; top:12px; padding:6px 11px; border-radius:999px; font-size:12px; font-weight:600; background:var(--warning-tint); color:var(--warning); display:inline-flex; align-items:center; gap:5px; white-space:nowrap; }
+  .ph .chip svg { width:13px; height:13px; }
+  .ph .cap { position:absolute; left:0; right:0; bottom:0; padding:22px 14px 12px; background:linear-gradient(transparent, rgba(37,28,26,0.55)); color:#fff; font-family:var(--font-mono); font-size:11px; display:flex; align-items:center; gap:6px; }
+  .ph .cap svg { width:13px; height:13px; opacity:0.85; }
+  .bd { padding:14px 16px 16px; }
+  .bd .couple { font-family:var(--font-display); font-weight:600; font-size:22px; color:var(--ink); line-height:1.1; }
+  .bd .meta { display:flex; align-items:center; gap:6px; color:var(--ink-2); font-size:13px; margin-top:6px; }
+  .bd .meta svg { width:14px; height:14px; color:var(--ink-3); }
+  .bd .foot { display:flex; align-items:baseline; justify-content:space-between; margin-top:14px; padding-top:13px; border-top:1px solid var(--border); }
+  .bd .price b { font-family:var(--font-display); font-weight:600; font-size:24px; color:var(--ink); }
+  .bd .price span { font-size:13px; color:var(--ink-3); }
+  .bd .rev { display:flex; align-items:center; gap:4px; font-size:13px; font-weight:600; color:var(--ink); }
+  .bd .rev svg { width:14px; height:14px; color:var(--saffron); fill:var(--saffron); }
+</style></head>
+<body><div class="card" style="align-items:center; justify-content:center;">
+  <div class="wc">
+    <div class="ph">
+      <span class="chip"><i data-lucide="flame"></i> 3 seats left</span>
+      <span class="save"><i data-lucide="heart"></i></span>
+      <span class="cap"><i data-lucide="image"></i> Marigold ceremony · Jaipur</span>
+    </div>
+    <div class="bd">
+      <div class="couple">Priya &amp; Daniel</div>
+      <div class="meta"><i data-lucide="globe"></i> South Asian · Hindu ceremony</div>
+      <div class="meta"><i data-lucide="calendar"></i> Sat 14 March 2026 · Jaipur</div>
+      <div class="foot">
+        <div class="price"><b>$180</b> <span>/ seat</span></div>
+        <div class="rev"><i data-lucide="star"></i> 4.9 <span style="color:var(--ink-3); font-weight:400;">(28)</span></div>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="https://unpkg.com/lucide@latest"></script><script>lucide.createIcons();</script>
+</body></html>

@@ -1,0 +1,26 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<link rel="stylesheet" href="card.css">
+<style>
+  .nav { display:flex; align-items:center; justify-content:space-between; background:var(--paper); border:1px solid var(--border); border-radius:16px; padding:12px 18px; box-shadow:var(--shadow-sm); }
+  .lock { display:flex; align-items:center; gap:9px; }
+  .mark { width:28px; height:28px; color:var(--saffron-deep); }
+  .word { font-family:var(--font-display); font-weight:600; font-size:21px; color:var(--ink); line-height:1; }
+  .a { color:var(--saffron-deep); }
+  .links { display:flex; align-items:center; gap:20px; }
+  .links a { font-size:14px; font-weight:500; color:var(--ink-2); text-decoration:none; }
+  .links a.active { color:var(--ink); }
+  .right { display:flex; align-items:center; gap:12px; }
+  .btn { font-family:var(--font-sans); font-weight:600; font-size:14px; border-radius:999px; padding:9px 16px; border:none; cursor:pointer; }
+  .btn.dark { background:var(--claret); color:#fff; }
+  .ghost { font-size:14px; font-weight:600; color:var(--ink); display:flex; align-items:center; gap:6px; }
+  .ghost svg { width:16px; height:16px; }
+</style></head>
+<body><div class="card">
+  <div class="nav">
+    <div class="lock"><span class="mark"><svg viewBox="0 0 48 48" fill="none"><path d="M9 43 L9 22 A15 15 0 0 1 39 22 L39 43" stroke="currentColor" stroke-width="3.4" stroke-linecap="round"/><path d="M17 43 L17 24 A7 7 0 0 1 31 24 L31 43" stroke="currentColor" stroke-width="2" stroke-linecap="round" opacity="0.55"/></svg></span><span class="word">Open<span class="a">Aisle</span></span></div>
+    <div class="links"><a class="active">Discover</a><a>How it works</a><a>For couples</a><a>Trust &amp; safety</a></div>
+    <div class="right"><span class="ghost"><i data-lucide="globe"></i> EN</span><button class="btn dark">Host a wedding</button></div>
+  </div>
+</div>
+<script src="https://unpkg.com/lucide@latest"></script><script>lucide.createIcons();</script>
+</body></html>

@@ -1,0 +1,6 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="OpenAisle">
+  
+  <path d="M9 43 L9 22 A15 15 0 0 1 39 22 L39 43" stroke="currentColor" stroke-width="3.4" stroke-linecap="round" fill="none"></path>
+  
+  <path d="M17 43 L17 24 A7 7 0 0 1 31 24 L31 43" stroke="currentColor" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.55"></path>
+</svg>

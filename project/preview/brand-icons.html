@@ -1,0 +1,31 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<link rel="stylesheet" href="card.css">
+<style>
+  .grid { display:grid; grid-template-columns:repeat(8,1fr); gap:8px; }
+  .ic { display:flex; flex-direction:column; align-items:center; gap:7px; padding:12px 4px; background:var(--paper); border:1px solid var(--border); border-radius:12px; }
+  .ic svg { width:22px; height:22px; color:var(--ink); stroke-width:1.75; }
+  .ic span { font-family:var(--font-mono); font-size:9px; color:var(--ink-3); }
+</style></head>
+<body><div class="card" style="gap:12px;">
+  <div class="lbl">Lucide · 1.75px stroke · round caps <span style="text-transform:none; letter-spacing:0; font-weight:400; color:var(--ink-4);">(substituted set — flagged)</span></div>
+  <div class="grid">
+    <div class="ic"><i data-lucide="map-pin"></i><span>map-pin</span></div>
+    <div class="ic"><i data-lucide="calendar"></i><span>calendar</span></div>
+    <div class="ic"><i data-lucide="armchair"></i><span>armchair</span></div>
+    <div class="ic"><i data-lucide="globe"></i><span>globe</span></div>
+    <div class="ic"><i data-lucide="heart"></i><span>heart</span></div>
+    <div class="ic"><i data-lucide="utensils"></i><span>utensils</span></div>
+    <div class="ic"><i data-lucide="music"></i><span>music</span></div>
+    <div class="ic"><i data-lucide="ticket"></i><span>ticket</span></div>
+    <div class="ic"><i data-lucide="shield-check"></i><span>shield</span></div>
+    <div class="ic"><i data-lucide="users"></i><span>users</span></div>
+    <div class="ic"><i data-lucide="star"></i><span>star</span></div>
+    <div class="ic"><i data-lucide="search"></i><span>search</span></div>
+    <div class="ic"><i data-lucide="shirt"></i><span>shirt</span></div>
+    <div class="ic"><i data-lucide="flame"></i><span>flame</span></div>
+    <div class="ic"><i data-lucide="message-circle"></i><span>message</span></div>
+    <div class="ic"><i data-lucide="arrow-right"></i><span>arrow</span></div>
+  </div>
+</div>
+<script src="https://unpkg.com/lucide@latest"></script><script>lucide.createIcons();</script>
+</body></html>

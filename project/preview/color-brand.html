@@ -1,0 +1,31 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<link rel="stylesheet" href="card.css">
+<style>
+  .sw { flex:1; border-radius:14px; padding:14px 16px; min-height:128px; display:flex; flex-direction:column; justify-content:flex-end; box-shadow: var(--shadow-sm); }
+  .sw .nm { font-weight:700; font-size:15px; }
+  .sw .hx { font-family:var(--font-mono); font-size:12px; opacity:0.85; margin-top:2px; }
+  .ramp { display:flex; gap:0; border-radius:10px; overflow:hidden; height:28px; box-shadow: var(--ring-inset); }
+  .ramp div { flex:1; }
+</style></head>
+<body><div class="card">
+  <div class="row" style="gap:14px;">
+    <div class="sw" style="background:var(--saffron); color:#fff;"><span class="nm">Saffron</span><span class="hx">#DE7A2C · primary</span></div>
+    <div class="sw" style="background:var(--claret); color:#fff;"><span class="nm">Claret</span><span class="hx">#7E2741 · secondary</span></div>
+    <div class="sw" style="background:var(--sage); color:#fff;"><span class="nm">Sage</span><span class="hx">#71805C · support</span></div>
+    <div class="sw" style="background:var(--gold); color:#fff;"><span class="nm">Gold</span><span class="hx">#B08A4F · hairline</span></div>
+  </div>
+  <div class="row" style="gap:18px;">
+    <div style="flex:1;">
+      <div class="ramp"><div style="background:var(--saffron-tint)"></div><div style="background:var(--saffron-soft)"></div><div style="background:var(--saffron)"></div><div style="background:var(--saffron-deep)"></div></div>
+      <div class="tok" style="margin-top:6px;">saffron · tint / soft / base / deep</div>
+    </div>
+    <div style="flex:1;">
+      <div class="ramp"><div style="background:var(--claret-tint)"></div><div style="background:var(--claret)"></div><div style="background:var(--claret-deep)"></div></div>
+      <div class="tok" style="margin-top:6px;">claret · tint / base / deep</div>
+    </div>
+    <div style="flex:1;">
+      <div class="ramp"><div style="background:var(--sage-tint)"></div><div style="background:var(--sage)"></div><div style="background:var(--sage-deep)"></div></div>
+      <div class="tok" style="margin-top:6px;">sage · tint / base / deep</div>
+    </div>
+  </div>
+</div></body></html>

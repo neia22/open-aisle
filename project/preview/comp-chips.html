@@ -1,0 +1,31 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<link rel="stylesheet" href="card.css">
+<style>
+  .chip { display:inline-flex; align-items:center; gap:6px; padding:7px 13px; border-radius:999px; font-size:13px; font-weight:600; }
+  .chip svg { width:14px; height:14px; }
+  .tag { display:inline-flex; align-items:center; gap:6px; padding:6px 12px; border-radius:999px; font-size:12px; font-weight:600; background:var(--paper); border:1px solid var(--border); color:var(--ink-2); }
+  .tag svg { width:13px; height:13px; color:var(--ink-3); }
+</style></head>
+<body><div class="card" style="gap:16px;">
+  <div>
+    <div class="lbl" style="margin-bottom:10px;">Seats-left status chips</div>
+    <div class="row wrap" style="gap:10px;">
+      <span class="chip" style="background:var(--positive-tint); color:var(--positive);"><i data-lucide="armchair"></i> 9 seats available</span>
+      <span class="chip" style="background:var(--warning-tint); color:var(--warning);"><i data-lucide="flame"></i> 3 seats left</span>
+      <span class="chip" style="background:var(--danger-tint); color:var(--danger);"><i data-lucide="x-circle"></i> Sold out</span>
+      <span class="chip" style="background:var(--claret); color:#fff;"><i data-lucide="check"></i> Reserved</span>
+    </div>
+  </div>
+  <div>
+    <div class="lbl" style="margin-bottom:10px;">Tradition &amp; detail tags</div>
+    <div class="row wrap" style="gap:9px;">
+      <span class="tag"><i data-lucide="globe"></i> South Asian</span>
+      <span class="tag"><i data-lucide="map-pin"></i> Jaipur, India</span>
+      <span class="tag"><i data-lucide="utensils"></i> Feast included</span>
+      <span class="tag"><i data-lucide="shirt"></i> Dress code provided</span>
+      <span class="tag"><i data-lucide="shield-check"></i> Verified couple</span>
+    </div>
+  </div>
+</div>
+<script src="https://unpkg.com/lucide@latest"></script><script>lucide.createIcons();</script>
+</body></html>

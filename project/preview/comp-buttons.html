@@ -1,0 +1,29 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<link rel="stylesheet" href="card.css">
+<style>
+  .btn { font-family:var(--font-sans); font-weight:600; font-size:15px; border-radius:999px; padding:12px 22px; border:1px solid transparent; display:inline-flex; align-items:center; gap:8px; cursor:pointer; }
+  .btn svg { width:17px; height:17px; }
+  .primary { background:var(--saffron); color:#fff; box-shadow:var(--shadow-sm); }
+  .primary.hover { background:var(--saffron-deep); }
+  .secondary { background:var(--paper); color:var(--ink); border-color:var(--border-strong); }
+  .secondary.hover { background:var(--saffron-tint); border-color:var(--saffron-soft); }
+  .ghost { background:transparent; color:var(--claret); }
+  .ghost.hover { background:var(--claret-tint); }
+  .dark { background:var(--claret); color:#fff; }
+  .st { font-family:var(--font-mono); font-size:10px; color:var(--ink-3); text-align:center; margin-top:7px; }
+  .col { display:flex; flex-direction:column; align-items:center; }
+</style></head>
+<body><div class="card">
+  <div class="row" style="gap:16px; align-items:flex-start;">
+    <div class="col"><button class="btn primary">Reserve a seat <i data-lucide="arrow-right"></i></button><span class="st">primary · rest</span></div>
+    <div class="col"><button class="btn primary hover">Reserve a seat <i data-lucide="arrow-right"></i></button><span class="st">primary · hover</span></div>
+    <div class="col"><button class="btn dark">Host a wedding</button><span class="st">claret</span></div>
+  </div>
+  <div class="row" style="gap:16px; align-items:flex-start;">
+    <div class="col"><button class="btn secondary"><i data-lucide="heart"></i> Save</button><span class="st">secondary · rest</span></div>
+    <div class="col"><button class="btn secondary hover"><i data-lucide="heart"></i> Save</button><span class="st">secondary · hover</span></div>
+    <div class="col"><button class="btn ghost">Learn how it works</button><span class="st">ghost</span></div>
+  </div>
+</div>
+<script src="https://unpkg.com/lucide@latest"></script><script>lucide.createIcons();</script>
+</body></html>
