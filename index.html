@@ -697,7 +697,7 @@ input, select, textarea { font-family: var(--font-sans); }
             <h2 class="form-title">Submit your <i>wedding</i></h2>
             <p class="form-sub">Takes two minutes. We'll be in touch to set up your listing before we launch.</p>
 
-            <form name="wedding-submission" method="POST" action="/" data-netlify="true" netlify-honeypot="bot-field">
+            <form name="wedding-submission" method="POST" action="/thank-you.html" data-netlify="true" netlify-honeypot="bot-field">
               <input type="hidden" name="form-name" value="wedding-submission" />
               <p style="display:none"><input name="bot-field" /></p>
 
@@ -980,18 +980,6 @@ input, select, textarea { font-family: var(--font-sans); }
 </footer>
 
 <script>
-function handleSubmit(e) {
-  e.preventDefault();
-  const btn = e.currentTarget;
-  btn.disabled = true;
-  btn.textContent = 'Submitting…';
-
-  setTimeout(() => {
-    document.getElementById('form-body').style.display = 'none';
-    const s = document.getElementById('success-state');
-    s.classList.add('visible');
-  }, 800);
-}
 </script>
 
 </body>
