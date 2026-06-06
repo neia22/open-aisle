@@ -697,9 +697,11 @@ input, select, textarea { font-family: var(--font-sans); }
             <h2 class="form-title">Submit your <i>wedding</i></h2>
             <p class="form-sub">Takes two minutes. We'll be in touch to set up your listing before we launch.</p>
 
-            <form name="wedding-submission" method="POST" action="/thank-you.html" data-netlify="true" netlify-honeypot="bot-field">
-              <input type="hidden" name="form-name" value="wedding-submission" />
-              <p style="display:none"><input name="bot-field" /></p>
+            <form method="POST" action="https://api.web3forms.com/submit">
+              <input type="hidden" name="access_key" value="71ae7a4a-9838-4c8e-ac0f-abdf7cd33ccf" />
+              <input type="hidden" name="subject" value="New wedding submission — OpenAisle" />
+              <input type="hidden" name="redirect" value="https://open-aisle.com/thank-you.html" />
+              <input type="checkbox" name="botcheck" style="display:none" />
 
             <div class="field-group">
               <div class="field-row">
